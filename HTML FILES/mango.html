@@ -1,0 +1,143 @@
+<?php
+	
+		if (isset(_POST['Add to Cart']))
+		{
+			$con=mysqli_connect("localhost","root","","nursery_db");
+			$sql="select product_name from purchase;"
+			$result=mysqli_query($con,$sql);
+			if(mysql_num_rows > 0)
+			{
+				if($result="Mango Plant")
+				{
+					$sql1="select purchase_id from purchase;"
+					$sql3="insert into wishlist values(,,'sql2',);"
+				}
+			}
+		}
+
+
+
+
+
+
+<html>
+<html>
+<head>
+	<script language="Javascript" type="text/javascript">
+
+	// Get the container element
+var btnContainer = document.getElementById("navbar");
+
+// Get all buttons with class="btn" inside the container
+var btns = btnContainer.getElementsById("ddnav");
+
+// Loop through the buttons and add the active class to the current/clicked button
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsById("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+	
+
+	<link rel="stylesheet" href="mango.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+	
+	<div class="bgwrap">
+		
+		<nav class="navbar">
+				<img class="logo" src="nursery_logo.jpg" />
+		<ul>
+			<li><a id="ddnav" href="Home_Page.html">Home</a></li>
+			<li class="active"><a id="ddnav">Categories</a>
+				<div class="sublist1">
+					<ul class="subul">
+						<li class="subli"><a id="ddnav" href="fruit.html">Fruit Plant</a></li>
+						<li class="subli"><a id="ddnav" href="flower1.html">Flower Plant</a></li>
+						<li class="subli"><a id="ddnav" href="medicine.html">Medicinal Plant</a></li>
+					</ul>
+				</div>
+			</li>
+			<li><a id="ddnav" href="Accessories.html">Accessories</a></li>
+			<li><a id="ddnav" href="signup.html">Sign up</a></li>
+			<li><a id="ddnav" href="login.html">Login</a></li>
+			<li><a id="ddnav" href="contactus.html">contact us</a></li>
+			<li><a id="ddnav" href=""><i class="fa fa-facebook"></i> </a></li>
+			<li><a id="ddnav" href=""><i class="fa fa-twitter"></i> </a></li>
+			<li><a id="ddnav" href=""><i class="fa fa-whatsapp"></i> </a></li>
+		</ul>
+		</nav>	
+	</div>
+	
+	<div class="info" >
+				
+		<div class="setp">
+					<p id="p1">
+						<b>Fruit Name&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: Mango </b><br><br> 
+						<b>MangoKingdom&nbsp&nbsp&nbsp&nbsp: Plantae</b><br><br>
+						<b>Family&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: Anacardiaceae</b><br><br>
+						<b>Order&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: Sapindales</b><br><br>
+						<b>Rank&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: Species </b><br><br>
+						<b>Common Name &nbsp&nbsp&nbsp&nbsp&nbsp: Mango </b><br><br>
+						
+					</p>
+		</div>
+		<div class="info2">
+					
+					<img src="E:\HCL Assignment1 & 2\categories\fruit plants\mango.jpg" class="img1" />
+		</div>
+		
+		<div class="info3">
+			<h2> Description : </h2><br><br>
+				<div class="forP">
+				<p align="justify">
+				<br>
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspMango is a Strong fruit produce from numerous species of tropical trees belonging from flowering plant 
+				.When cultivated, the size, shape and branch density are determined by rootstock selection and
+				trimming method.The leaves are alternately arranged green-colored simple ovals with serrated margins and slightly downy 
+				undersides.<br>
+
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspMango Blossoms are produced in summer simultaneously with the budding of the leaves and are
+				produced on spurs and some long shoots. The 3 to 4 cm (1 to 1 1⁄2 in) flowers are white with a pinktinge that gradually fades,
+				five petaled, with an inflorescence consisting of a cyme with 4–6 flowers.The central flower of the inflorescence is called the
+				"king bloom"; it opens first and can develop a larger fruit.<br>
+
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspfruit matures in late summer or autumn, and cultivars exist in a wide range of sizes.Commercial
+				growers aim to produce an mango that is 7 to 8.5 cm (2 3⁄4 to 3 1⁄4 in) in diameter,due to market preference. Some consumers, especially
+				those in Japan, prefer a larger mango, while mangos below 5.5 cm (2 1⁄4 in) are generally used for making juice and have little fresh market
+				value. <br><br><br><br><br>
+				</p>
+				</div>
+		
+		</div>
+		<div class="info4">
+		
+					<img src="babymango.jpg" class="img2" />
+		</div>
+		
+		<div class="info5">
+			<form action="" method="post">
+			<input type="button" value="Buy Now">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="button" value="Add to Cart">
+			</form>
+		</div><br><br><br>
+	
+	</div>
+	
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<br>
+		<div class="foot">
+		<footer>
+			<p><br><b>Greenwood Nursery copyright&nbsp &#169;2020,&nbsp All Rights Reserved.
+			&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			Designed By &nbsp&nbsp&nbsp | &nbsp&nbsp&nbsp Vaishnavi Nagothanekar</b><br><br></p>
+		</footer>
+		</div>
+</html>

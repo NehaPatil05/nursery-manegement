@@ -1,0 +1,69 @@
+<html>
+<head>
+<script language="Javascript" type="text/javascript">
+	
+	MyBanners=new Array('banner1.jpg','banner2.jpg')
+	banner=0
+	function ShowBanners()
+	{
+	if (document.images)
+	{ 
+		banner++
+		if (banner==MyBanners.length) {
+		banner=0
+	}
+	document.RotateBanner.src=MyBanners[banner]
+	setTimeout("ShowBanners()",2000)
+	}
+	}
+</script>	
+
+	<link rel="stylesheet" href="Home_Page.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body onload="ShowBanners()">
+	
+	<div class="bgwrap">
+		
+		<nav class="navbar">
+				<img class="logo" src="nursery_logo.jpg" />
+		<ul>
+			<li class="active"><a href="Home_Page.html" >Home</a></li>
+			<li><a id="ddnav" href="">Categories</a>
+				<div class="sublist1">
+					<ul class="subul">
+						<li class="subli"><a id="ddnav" href="fruit.html">Fruit Plant</a></li>
+						<li class="subli"><a id="ddnav" href="flower1.html">Flower Plant</a></li>
+						<li class="subli"><a id="ddnav" href="medicine.html">Medicinal Plant</a></li>
+					</ul>
+				</div>
+			</li>
+			<li><a id="ddnav" href="Accessories.html" >Accessories</a></li>
+			<li><a id="ddnav" href="signup.html" >Sign up</a></li>
+			<li><a id="ddnav" href="login.html" >Login</a></li>
+			<li><a id="ddnav" href="contactus.html" >contact us</a></li>
+			<li><a id="ddnav" href=""><i class="fa fa-facebook" ></i> </a></li>
+			<li><a id="ddnav" href=""><i class="fa fa-twitter"  ></i> </a></li>
+			<li><a id="ddnav" href=""><i class="fa fa-whatsapp" ></i> </a></li>
+		</ul>
+		</nav>
+		
+		<center>
+		<!--	<a href="javascript:LinkBanner()">-->
+			<img src="banner1.jpg" class="bannerimg" name="RotateBanner" />
+		</center>	
+		
+		</div><br><br>	
+		<div class="foot">
+		<footer>
+			<p><br><b>Greenwood Nursery copyright&nbsp &#169;2020,&nbsp All Rights Reserved.
+			&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			Designed By &nbsp&nbsp&nbsp | &nbsp&nbsp&nbsp Vaishnavi Nagothanekar</b><br><br></p>
+		</footer>
+		</div>
+</body>
+</html>

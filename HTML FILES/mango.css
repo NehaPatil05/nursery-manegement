@@ -1,0 +1,180 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.navbar
+{
+	height :80px;
+	width :100%;
+	background :#4dff88;
+}	
+.navbar ul
+{
+  float: right;
+  margin-right:15px;
+}
+.logo
+{
+	width: 250px;
+	height:80px;
+	padding-top :2px ;
+	padding-left :100px;
+}
+.navbar ul li {
+  list-style:none;
+  margin :0 5px;
+  line-height: 80px;
+  display:inline-block;
+}
+.navbar ul li a 
+{
+  text-decoration:none;
+  color:#2D5123;
+  padding : 6px 7px;
+  font-size : 22;
+  font-family : 'Roboto' sans-serif;
+  transition : -4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover
+{	
+	background: white;	
+	border-radius:2px;
+	height:50px;
+	width:80px;
+}	
+
+.bgwrap .bannerimg
+{
+		padding-top:25px;
+		height :500px;
+		width : 1300px;
+}
+  .sublist1
+{
+	display : none;
+}
+.navbar ul li:hover .sublist1
+{
+	display :block;
+	position:absolute;
+	height :50px;
+	width : 130px;
+	margin-left:100px;
+}
+
+.navbar ul li:hover .sublist1 .subul
+{
+	background:#4dff88;
+}
+
+.navbar ul li:hover .sublist1 .subul .subli
+{
+	width : 200px;
+	padding-left:10px;
+	border-bottom:1px solid #fff;
+	border-radius:0;
+	text-align :center;
+}
+.navbar ul li:hover .sublist1 .subul .subli:last-child
+{
+	border-bottom:none;
+}
+.active, .ddnav:hover {
+  background-color: white;
+  color: white;
+}
+
+.info .setp
+{
+	position : absolute;
+	font-size : 20px;
+	margin-left:400px;
+	margin-top :30px;
+}
+
+.info .info2 .img1
+{
+	position:absolute;
+	height:250px;
+	width :250px;
+	margin-left:100px;
+	margin-top :30px;
+	border : 2px solid grey;
+}
+.info .info3 h2
+{
+	position : absolute;
+	margin-top : 300px;
+	margin-left : 100px;
+}
+
+.info .info3 .forP
+{
+	position : absolute;
+	height : auto;
+	width : 1100px;
+	margin-top:300px;
+	margin-left:120px;
+}
+
+.info .info3 .forP p
+{
+	
+	text-align: justify;
+	font-size : 18px;
+	font-family:cambria;
+	color : black;
+	line-height:1.5;
+}
+
+.info .info4 .img2
+{
+	position:absolute;
+	height:280px;
+	width :260px;
+	margin-left:960px;
+	margin-top:-5px;
+	border : 2px solid grey;
+}
+
+.info .info5
+{
+	position: absolute;
+	margin-top:600px;
+	margin-left:500px;
+}
+
+.info .info5 input[type=button]
+{  
+  text-decoration:none;
+  height:40px;
+  width:120px;
+  background-color:;
+  color :black;
+  font-style:bold;
+  font-size :18;
+  border:1px solid grey;
+  border-radius:20px 20px 20px 20px;
+  outline:none;
+}
+
+
+.foot footer
+{
+	position :absolute;
+	width : 100%;
+	background : #33ff77;
+	border-top: 5px solid #66ffe0;
+}
+
+.foot footer p
+{
+  
+  margin-left:50;
+  text-decoration:none;
+  color:#2D5123;
+  font-size : 18;
+  font-family : 'Roboto' sans-serif;  
+}	
