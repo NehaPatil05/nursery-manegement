@@ -1,0 +1,126 @@
+<html>
+<head>
+	<script language="Javascript" type="text/javascript">
+
+	// Get the container element
+var btnContainer = document.getElementById("navbar");
+
+// Get all buttons with class="btn" inside the container
+var btns = btnContainer.getElementsById("ddnav");
+
+// Loop through the buttons and add the active class to the current/clicked button
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsById("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+	<link rel="stylesheet" href="flower.css">
+	<link rel="stylesheet" href="Home_Page.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+
+<div class="bgwrap">
+		
+		<nav class="navbar">
+				<img class="logo" src="C:/Users/shree/Desktop/HCL Assignment1 & 2/html files/nursery_logo.JPG" />
+		<ul>
+			<li><a id="ddnav" href="Home_Page.html">Home</a></li>
+			<li class="active"><a id="ddnav">Categories</a>
+				<div class="sublist1">
+					<ul class="subul">
+						<li class="subli"><a id="ddnav" href="fruit.html">Fruit Plant</a></li>
+						<li class="subli"><a id="ddnav" href="flower1.html">Flower Plant</a></li>
+						<li class="subli"><a id="ddnav" href="medicine.html">Medicinal Plant</a></li>
+					</ul>
+				</div>
+			</li>
+			<li><a id="ddnav" href="Accessories.html">Accessories</a></li>
+			<li><a id="ddnav" href="signup.html">Sign up</a></li>
+			<li><a id="ddnav" href="login.html">Login</a></li>
+			<li><a id="ddnav" href="contactus.html">contact us</a></li>
+			<li><a id="ddnav" href=""><i class="fa fa-facebook"></i> </a></li>
+			<li><a id="ddnav" href=""><i class="fa fa-twitter"></i> </a></li>
+			<li><a id="ddnav" href=""><i class="fa fa-whatsapp"></i> </a></li>
+		</ul>
+		</nav>
+</div>
+
+
+
+	<div class="flow">
+		<center>
+		<img class= "f1" src="E:\HCL Assignment1 & 2\categories\fruit plants\mango.jpg"/>
+		<p>Mango plant <br> &#8377;200</p>
+		<input class="btn" type="button" value="Buy Now" onclick="window.location.href='mango.html'"></center>
+	</div>
+	
+	<div class="flow">
+		<center>
+		<img class= "f1" src="E:\HCL Assignment1 & 2\categories\fruit plants\Apple.jpg"/>
+		<p>Apple plant <br> &#8377;250</p>
+		<input class="btn" type="button" value="Buy Now"></center>
+	</div>
+	
+	<div class="flow">
+		<center>
+		<img class= "f1" src="E:\HCL Assignment1 & 2\categories\fruit plants\cheri.jpg"/>
+		<p>Cherry plant <br> &#8377;300</p>
+		<input class="btn" type="button" value="Buy Now"></center>
+	</div>
+	
+	<div class="flow">
+		<center>
+		<img class= "f1" src="E:\HCL Assignment1 & 2\categories\fruit plants\chiku.jpg"/>
+		<p>Sapodilla plant <br> &#8377;400</p>
+		<input class="btn" type="button" value="Buy Now"></center>
+	</div>
+	
+	<div class="flow">
+		<center>
+		<img class= "f1" src="E:\HCL Assignment1 & 2\categories\fruit plants\custard apple.jpg"/>
+		<p>Custard Apple plant <br> &#8377;350</p>
+		<input class="btn" type="button" value="Buy Now"></center>
+	</div>
+	
+	<div class="flow">
+		<center>
+		<img class= "f1" src="E:\HCL Assignment1 & 2\categories\fruit plants\Guava.jpg"/>
+		<p>Guava plant <br> &#8377;450</p>
+		<input class="btn" type="button" value="Buy Now"></center>
+	</div>
+
+	<div class="flow">
+		<center>
+		<img class= "f1" src="E:\HCL Assignment1 & 2\categories\fruit plants\black grapes.jpg"/>
+		<p>Black Greps plant <br> &#8377;200</p>
+		<input class="btn" type="button" value="Buy Now"></center>
+	</div>
+	
+	<div class="flow">
+		<center>
+		<img class= "f1" src="E:\HCL Assignment1 & 2\categories\fruit plants\oranges.jpg"/>
+		<p>Oranges plant <br> &#8377;150</p>
+		<input class="btn" type="button" value="Buy Now"></center>
+	</div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<br><br><br><br><br><br><br><br><br>
+		<div class="foot">
+		<footer>
+			<p><br><b>Greenwood Nuery copyright&nbsp &#169;2020,&nbsp All Rights Reserved.
+			&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			Designed By &nbsp&nbsp&nbsp | &nbsp&nbsp&nbsp Vaishnavi Nagothanekar</b><br><br></p>
+		</footer>
+		</div>
+	
+</body>
+</html>
+	

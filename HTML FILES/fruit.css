@@ -1,0 +1,47 @@
+*{
+	margin : 0;
+	padding : 0;
+}
+.flow
+{
+	float :left;
+	height:350px;
+	width :300px;
+	margin-top:20px;
+	box-sizing :border-box;
+	border :2px solid ##08E5BD;
+	box-shadow:5px 5px 5px rgba(8,229,189,0.6);
+	margin-left :30px;
+}
+
+.flow .f1
+{
+	height:200px;
+	width:200px;
+	padding :20px;
+}
+
+
+.flow .btn
+{
+  
+  text-decoration:none;
+  margin-top:5px;
+  height:40px;
+  width:120px;
+  background-color:;
+  color :black;
+  font-style:bold;
+  font-size :18;
+  border:1px solid grey;
+  border-radius:20px 20px 20px 20px;
+  outline:none;
+}
+p
+{
+  text-decoration:none;
+  font-size :20;
+  color :black;
+  font-style:bold;
+  font-family :'Roboto' sans-serif;
+}
